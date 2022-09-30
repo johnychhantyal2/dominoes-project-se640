@@ -24,9 +24,9 @@ class CRandom:
             count = count + 1
 
 class CPlayer:
-  def __init__(self, id, tiles):
-    self.id = id
-    self.tiles = tiles
+    def __init__(self, id, tiles):
+        self.id = id
+        self.tiles = tiles
 
 class CTable:
     def __init__(self, player, snake):
